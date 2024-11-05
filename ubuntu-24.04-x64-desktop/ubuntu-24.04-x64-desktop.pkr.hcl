@@ -9,9 +9,9 @@ variable "os" {
   default = "l26"
 }
 
-variable "iso_url" {
+variable "iso_file" {
   type    = string
-  default = "https://releases.ubuntu.com/24.04.1/ubuntu-24.04.1-desktop-amd64.iso"
+  default = "local:iso/ubuntu-24.04.1-desktop-amd64.iso"
 }
 
 variable "vm_cpu_cores" {
