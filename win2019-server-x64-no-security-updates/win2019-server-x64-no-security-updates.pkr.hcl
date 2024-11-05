@@ -8,9 +8,9 @@ variable "os" {
   default = "win10"
 }
 
-variable "iso_url" {
+variable "iso_file" {
   type    = string
-  default = "https://software-download.microsoft.com/download/pr/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso"
+  default = "local:iso/17763.737.190906-2324.rs5_release_svc_refresh_SERVER_EVAL_x64FRE_en-us_1.iso"
 }
 
 variable "vm_cpu_cores" {
